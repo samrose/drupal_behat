@@ -1,3 +1,3 @@
-This is a basic set up for using Behat with Drupal. It contains a simple starter feature and step definitions. Much of this configuration was borrowed from information at http://drupalwatchdog.com/2/2/behat-mink and 
+This is a basic set up for using Behat with Drupal. It contains a simple starter feature and step definitions. Much of this configuration was borrowed from information at http://drupalwatchdog.com/2/2/behat-mink and http://drupal.org/project/drupalextension 
 
-It does *not* currently require, or use http://drupal.org/project/behat module 
+This set up does *not* currently require, or use http://drupal.org/project/behat module 
