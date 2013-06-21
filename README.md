@@ -12,5 +12,7 @@ Getting started:
 
 4. Run <code>php composer.phar install</code> to install all dependencies listed in composer.json file
 
-5. run <code>./bin/behat</code> to see if your configuration is properly running features and step definitions
+5. Edit <code>behat.yml</code> file, and change <code>base_url</code> value to the appropriate location (for exampe, the same location where you can successfully run a <code>curl</code> command against the site).
+
+6. run <code>./bin/behat</code> to see if your configuration is properly running features and step definitions
 
