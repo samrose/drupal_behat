@@ -6,13 +6,11 @@ Getting started:
 
 1. Clone the repository: <code>$git clone https://github.com/samrose/drupal_behat.git</code> into "tests" in the root of your Drupal directory
 
-2. rm -rf vendor/*   (make sure the vendor directory is empty).
+2. Run <code>curl -s https://getcomposer.org/installer | php</code> if you haven't already done so to get composer installed
 
-3. Run <code>curl -s https://getcomposer.org/installer | php</code> if you haven't already done so to get composer installed
+3. Run <code>php composer.phar install</code> to install all dependencies listed in composer.json file
 
-4. Run <code>php composer.phar install</code> to install all dependencies listed in composer.json file
+4. Edit <code>behat.yml</code> file, and change <code>base_url</code> value to the appropriate location (for exampe, the same location where you can successfully run a <code>curl</code> command against the site).
 
-5. Edit <code>behat.yml</code> file, and change <code>base_url</code> value to the appropriate location (for exampe, the same location where you can successfully run a <code>curl</code> command against the site).
-
-6. run <code>./bin/behat</code> to see if your configuration is properly running features and step definitions
+5. run <code>./bin/behat</code> to see if your configuration is properly running features and step definitions
 
