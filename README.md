@@ -4,7 +4,7 @@ This set up does *not* currently require, or use http://drupal.org/project/behat
 
 Getting started:
 
-1. Clone the repository: <code>$git clone git@github.com:samrose/drupal_behat.git</code> into "tests" in the root of your Drupal directory
+1. Clone the repository: <code>$git clone https://github.com/samrose/drupal_behat.git</code> into "tests" in the root of your Drupal directory
 
 2. rm -rf vendor/*   (make sure the vendor directory is empty).
 

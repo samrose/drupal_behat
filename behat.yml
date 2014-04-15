@@ -5,6 +5,6 @@ default:
     Behat\MinkExtension\Extension:
       goutte: ~
       selenium2: ~
-      base_url: http://localhost/
+      base_url: http://localhost/nmich/
     Drupal\DrupalExtension\Extension:
       blackbox: ~
